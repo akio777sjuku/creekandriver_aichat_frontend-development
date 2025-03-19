@@ -1,0 +1,23 @@
+.questionInputTextArea {
+    width: 100%;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 8px;
+    resize: none;
+}
+
+.questionInputButtonsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.questionInputSendButton {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.questionInputSendButtonDisabled {
+    opacity: 0.4;
+    pointer-events: none;
+}
